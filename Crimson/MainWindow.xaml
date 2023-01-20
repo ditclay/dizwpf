@@ -1,0 +1,34 @@
+﻿<Window x:Class="Crimson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crimson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="733*"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Навигация" HorizontalAlignment="Left" Margin="10,0,0,14" Width="75" Height="391" VerticalAlignment="Bottom" Background="#FFB6144F"/>
+        <Button x:Name="button1" Content="Навигация" HorizontalAlignment="Left" Margin="269,210,0,0" VerticalAlignment="Top" Width="73" Height="19" FontSize="6" Background="#FFB6144F" Click="button1_Click"/>
+        <Button x:Name="button1_Copy" Content="СИЗ" HorizontalAlignment="Left" Margin="406,209,0,0" VerticalAlignment="Top" Width="72" Height="20" FontSize="6" Click="button1_Copy_Click" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy1" Content="Опасные зоны" HorizontalAlignment="Left" Margin="540,209,0,0" VerticalAlignment="Top" Width="72" Height="20" FontSize="6" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy2" Content="Поиск деталей" HorizontalAlignment="Left" Margin="452,304,0,0" VerticalAlignment="Top" Width="71" Height="19" FontSize="6" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy3" Content="Сортировка &#xD;&#xA;по размеру" HorizontalAlignment="Left" Margin="316,303,0,0" VerticalAlignment="Top" Width="73" Height="19" FontSize="6" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy4" Content="Цветовая &#xD;&#xA;фильтрация" HorizontalAlignment="Left" Margin="233,386,0,0" VerticalAlignment="Top" Width="72" Height="20" FontSize="6" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy5" Content="Контроль&#xD;&#xA; качества" HorizontalAlignment="Left" Margin="369,386,0,0" VerticalAlignment="Top" Width="72" Height="20" FontSize="6" Background="#FFB6144F"/>
+        <Button x:Name="button1_Copy6" Content="Сборка по &#xD;&#xA;штрих-коду" HorizontalAlignment="Left" Margin="502,386,0,0" VerticalAlignment="Top" Width="72" Height="20" FontSize="6" Background="#FFB6144F"/>
+        <Image x:Name="Image2_png" Margin="340,16,261,276" Source="Image2.png" Stretch="Fill"/>
+        <Image x:Name="icons8_компас_90_png" Margin="276,147,393,208" Source="icons8-компас-90.png" Stretch="Fill" RenderTransformOrigin="-0.481,0.479"/>
+        <Image x:Name="icons8_защитная_маска_96_png" Margin="407,142,258,209" Source="icons8-защитная-маска-96.png" Stretch="Fill"/>
+        <Image x:Name="icons8_ошибка_96_png" Margin="543,140,122,212" Source="icons8-ошибка-96.png" Stretch="Fill" RenderTransformOrigin="-0.125,0.438"/>
+        <Image x:Name="icons8_расширенный_поиск_90_png" Margin="457,242,212,114" Source="icons8-расширенный-поиск-90.png" Stretch="Fill"/>
+        <Image x:Name="icons8_численная_сортировка_90_png" Margin="322,240,347,116" Source="icons8-численная-сортировка-90.png" Stretch="Fill"/>
+        <Image x:Name="icons8_высокое_качество_90_png" Margin="377,326,292,31" Source="icons8-высокое-качество-90.png" Stretch="Fill"/>
+        <Image x:Name="icons8_цветовая_палитра_100_png" Margin="233,316,429,33" Source="icons8-цветовая-палитра-100.png" Stretch="Fill"/>
+        <Image x:Name="icons8_сканер_штрих_кода_90_png" Margin="508,320,161,37" Source="icons8-сканер-штрих-кода-90.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

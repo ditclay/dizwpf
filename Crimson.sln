@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crimson", "Crimson\Crimson.csproj", "{F53FEB26-E4AE-4CDE-8FD6-7C28829FD052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F53FEB26-E4AE-4CDE-8FD6-7C28829FD052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53FEB26-E4AE-4CDE-8FD6-7C28829FD052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53FEB26-E4AE-4CDE-8FD6-7C28829FD052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53FEB26-E4AE-4CDE-8FD6-7C28829FD052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90BAB337-D15A-465E-B418-B13382303BCA}
+	EndGlobalSection
+EndGlobal
