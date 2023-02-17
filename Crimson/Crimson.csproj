@@ -35,8 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Mvvm.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Core.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -46,6 +56,8 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -55,6 +67,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="dangerzone.xaml.cs">
+      <DependentUpon>dangerzone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="siz1.xaml.cs">
+      <DependentUpon>siz1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sizsiz.xaml.cs">
+      <DependentUpon>sizsiz.xaml</DependentUpon>
+    </Compile>
+    <Page Include="dangerzone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +93,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="siz1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sizsiz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +127,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-компас-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-защитная-маска-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-ошибка-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-расширенный-поиск-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-численная-сортировка-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-высокое-качество-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-пустой-фильтр-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-цветовая-палитра-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-сканер-штрих-кода-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

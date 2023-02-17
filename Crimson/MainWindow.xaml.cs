@@ -25,14 +25,23 @@ namespace Crimson
             InitializeComponent();
         }
 
-        private void button1_Copy_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            // Manager.navi.Navigate(new siz1());
+            siz1 siz = new siz1();
+            siz.Show();
+        }
 
+        private void button1_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            sizsiz siz = new sizsiz();
+            siz.Show();
+        }
+
+        private void button1_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            dangerzone window = new dangerzone();
+            window.Show();
         }
     }
 }
